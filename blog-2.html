@@ -16,13 +16,13 @@
 			<div class="loader-section section-right"></div>
 		</div><!-- Preload end -->
 		<!-- To the top start -->
-		<div id="to-the-top" class="to-the-top"><a href="#"><i class="fa fa-long-arrow-up"></i></a></div><!-- To the top end -->
+		<div class="to-the-top" id="to-the-top"><a href="#"><i class="fa fa-long-arrow-up"></i></a></div><!-- To the top end -->
 		<!-- Mobile menu start -->
-		<aside id="offcanvas-menu" data-pushbar-id="left" class="pushbar from_left">
+		<aside class="pushbar from_left" id="offcanvas-menu" data-pushbar-id="left">
 			<h4 class="title"><span>Site Menu</span><span data-pushbar-close> </span></h4>
 		</aside><!-- Mobile menu end -->
-		<div id="page" class="page">
-			<div id="content-wrapper" class="content-wrapper">
+		<div class="page" id="page">
+			<div class="content-wrapper" id="content-wrapper">
 				<div class="content-wrapper-inner">
 					<!-- Header start -->
 					<header class="site-header site-header-1">
@@ -37,7 +37,7 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-lg-12 main-bar-content">
-										<!-- Logo start --><a href="index.html" title="Ingram Accounting" class="site-logo">
+										<!-- Logo start --><a class="site-logo" href="index.html" title="Ingram Accounting">
 											<div class="logo-img"><img src="images/IA-logo.png" alt="Ingram Accounting logo"></div>
 											<div class="name-and-tagline">
 												<div class="name">Ingram</div>
@@ -49,7 +49,7 @@
 											<div class="header-contacts">
 												<div class="header-contacts-item hidden-md hidden-sm hidden-xs">
 													<div class="title"><span class="wicon-iconmonstr-mail-thin"></span> Ask the C.P.A.</div>
-													<div class="content"><a href="#">info@ingramAccounting.com</a></div>
+													<div class="content"><a href="mailto:info@ingramAccounting.com">info@ingramAccounting.com</a></div>
 												</div>
 												<div class="header-contacts-item hidden-sm hidden-xs">
 													<div class="title"><span class="wicon-iconmonstr-phone-thin"></span> Give us a call</div>
@@ -60,47 +60,24 @@
 													<div class="content">118 Salem Ct.</div>
 												</div>
 											</div><!-- Contacts end -->
-											<!-- Button start --><a href="#" class="btn btn-primary">Make An Appointment</a><!-- Button end -->
+											<!-- Button start --><a class="btn btn-primary" href="#">Make An Appointment</a><!-- Button end -->
 										</div>
 									</div>
 								</div>
 							</div>
 						</div><!-- Main bar end -->
 						<!-- Menu bar start -->
-						<div id="sticked-bar" class="menu-bar">
+						<div class="menu-bar" id="sticked-bar">
 							<div class="container">
 								<div class="row">
 									<div class="col-lg-12 menu-bar-content">
-										<!-- Memu start --><button data-pushbar-target="left" class="hidden-lg"><i class="fa fa-bars"></i></button>
-										<nav id="site-menu" class="site-menu hidden-sm hidden-xs hidden-md">
+										<!-- Memu start --><button class="hidden-lg" data-pushbar-target="left"><i class="fa fa-bars"></i></button>
+										<nav class="site-menu hidden-sm hidden-xs hidden-md" id="site-menu">
 											<ul>
-												<li class="active"><a href="#">home</a>
-													<ul>
-														<li><a href="index.html">Homepage #1</a></li>
-														<li><a href="index-2.html">Homepage #2</a></li>
-														<li><a href="index-3.html">Homepage #3</a></li>
-													</ul>
-												</li>
+												<li class="active"><a href="index.html">home</a></li>
 												<li><a href="#">About Us</a>
 													<ul>
-														<li><a href="page-404.html">404 error</a></li>
 														<li><a href="page-about.html">about the company</a></li>
-														<li><a href="page-coming-soon.html">coming soon</a></li>
-														<li><a href="page-contacts.html">contacts</a></li>
-														<li><a href="page-faq.html">faq</a></li>
-														<li><a href="#">Services</a>
-															<ul>
-																<li><a href="page-services.html">services</a></li>
-																<li><a href="page-services-single.html">single service</a></li>
-															</ul>
-														</li>
-														<li><a href="#">Payment</a>
-															<ul>
-																<li><a href="page-full-width.html">full width page</a></li>
-																<li><a href="page-sidebar-left.html">left sidebar page</a></li>
-																<li><a href="page-sidebar-right.html">right sidebar page</a></li>
-															</ul>
-														</li>
 													</ul>
 												</li>
 												<li><a href="page-services.html">Services</a>
@@ -109,13 +86,13 @@
 														<li><a href="page-services-single.html">single service</a></li>
 													</ul>
 												</li>
-												<li><a href="#"> Payment</a>
+												<li><a href="#"> Portal</a>
 													<ul>
-														<li><a href="portfolio-1.html">portfolio #1</a></li>
-														<li><a href="portfolio-2.html">portfolio #2</a></li>
-														<li><a href="portfolio-project.html">portfolio project</a></li>
+														<li><a href="portfolio-2.html">Client</a></li>
+														<li><a href="portfolio-1.html">Admin</a></li>
 													</ul>
 												</li>
+												<li><a href="payment.html"> Payment</a></li>
 												<li><a href="blog-1.html">Resources & Articles</a>
 													<ul>
 														<li><a href="blog-1.html">blog #1</a></li>
@@ -160,7 +137,7 @@
 										<div class="col-xs-12 col-sm-6">
 											<div class="post preview st-2">
 												<figure class="post-thumbnail">
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="post-content">
 													<ul class="meta">
@@ -169,14 +146,14 @@
 													</ul>
 													<h4 class="post-title"><a href="#">Five great lessons you can learn from Walton Consulting</a></h4>
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id vestibulum ante, eget venenatis mi.</p>
-													<p><a href="#" class="color-link">Read more <i class="fa fa-long-arrow-right"></i></a></p>
+													<p><a class="color-link" href="#">Read more <i class="fa fa-long-arrow-right"></i></a></p>
 												</div>
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-6">
 											<div class="post preview st-2">
 												<figure class="post-thumbnail">
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="post-content">
 													<ul class="meta">
@@ -185,7 +162,7 @@
 													</ul>
 													<h4 class="post-title"><a href="#">Why is Walton Consulting the most trending thing now?</a></h4>
 													<p>Duis lectus odio, ullamcorper ut mi ut, sollicitudin aliquam neque. Integer pulvinar erat eu ante egestas.</p>
-													<p><a href="#" class="color-link">Read more <i class="fa fa-long-arrow-right"></i></a></p>
+													<p><a class="color-link" href="#">Read more <i class="fa fa-long-arrow-right"></i></a></p>
 												</div>
 											</div>
 										</div>
@@ -193,7 +170,7 @@
 										<div class="col-xs-12 col-sm-6">
 											<div class="post preview st-2">
 												<figure class="post-thumbnail">
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="post-content">
 													<ul class="meta">
@@ -202,14 +179,14 @@
 													</ul>
 													<h4 class="post-title"><a href="#">How Walton Consulting is going to change your business strategies</a></h4>
 													<p>Nunc id pellentesque sem, at porta metus. Proin lacinia erat orci, ac tincidunt tortor luctus iaculis.</p>
-													<p><a href="#" class="color-link">Read more <i class="fa fa-long-arrow-right"></i></a></p>
+													<p><a class="color-link" href="#">Read more <i class="fa fa-long-arrow-right"></i></a></p>
 												</div>
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-6">
 											<div class="post preview st-2">
 												<figure class="post-thumbnail">
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="post-content">
 													<ul class="meta">
@@ -218,7 +195,7 @@
 													</ul>
 													<h4 class="post-title"><a href="#">This is how Walton Consalting will look like in 10 years time</a></h4>
 													<p>Donec sit amet turpis blandit, sodales arcu id, commodo lectus. Mauris auctor neque quam.</p>
-													<p><a href="#" class="color-link">Read more <i class="fa fa-long-arrow-right"></i></a></p>
+													<p><a class="color-link" href="#">Read more <i class="fa fa-long-arrow-right"></i></a></p>
 												</div>
 											</div>
 										</div>
@@ -226,7 +203,7 @@
 										<div class="col-xs-12 col-sm-6">
 											<div class="post preview st-2">
 												<figure class="post-thumbnail">
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="post-content">
 													<ul class="meta">
@@ -235,14 +212,14 @@
 													</ul>
 													<h4 class="post-title"><a href="#">Five great lessons you can learn from Walton Consulting</a></h4>
 													<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam id vestibulum ante, eget venenatis mi.</p>
-													<p><a href="#" class="color-link">Read more <i class="fa fa-long-arrow-right"></i></a></p>
+													<p><a class="color-link" href="#">Read more <i class="fa fa-long-arrow-right"></i></a></p>
 												</div>
 											</div>
 										</div>
 										<div class="col-xs-12 col-sm-6">
 											<div class="post preview st-2">
 												<figure class="post-thumbnail">
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="post-content">
 													<ul class="meta">
@@ -251,7 +228,7 @@
 													</ul>
 													<h4 class="post-title"><a href="#">Why is Walton Consulting the most trending thing now?</a></h4>
 													<p>Donec sit amet turpis blandit, sodales arcu id, commodo lectus. Mauris auctor neque quam.</p>
-													<p><a href="#" class="color-link">Read more <i class="fa fa-long-arrow-right"></i></a></p>
+													<p><a class="color-link" href="#">Read more <i class="fa fa-long-arrow-right"></i></a></p>
 												</div>
 											</div>
 										</div>
@@ -305,7 +282,7 @@
 											<div class="widget-content">
 												<div class="post preview">
 													<figure class="post-thumbnail">
-														<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+														<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 													</figure>
 													<div class="post-content">
 														<p class="post-title"><a href="#">Five great lessons you can learn from Walton Consulting</a></p>
@@ -313,7 +290,7 @@
 												</div>
 												<div class="post preview">
 													<figure class="post-thumbnail">
-														<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+														<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 													</figure>
 													<div class="post-content">
 														<p class="post-title"><a href="#">Why is Walton Consulting the most trending thing now?</a></p>
@@ -321,7 +298,7 @@
 												</div>
 												<div class="post preview">
 													<figure class="post-thumbnail">
-														<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+														<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 													</figure>
 													<div class="post-content">
 														<p class="post-title"><a href="#">How Walton Consulting is going to change your business strategies</a></p>
@@ -337,14 +314,14 @@
 											<h4 class="widget-title">simple text widget</h4>
 											<div class="widget-content">
 												<p>Nulla suscipit quam ac sem sagittis, non porttitor justo accumsan. Pellentesque vitae pulvinar turpis, ut ullamcorper tellus.</p>
-												<p><a href="#" class="btn btn-1">get in touch</a></p>
+												<p><a class="btn btn-1" href="#">get in touch</a></p>
 											</div>
 										</div>
 										<div class="widget image-bg image-bg-7">
 											<h4 class="widget-title">we are hire</h4>
 											<div class="widget-content">
 												<p>Fusce finibus metus in dolor pharetra, sed efficitur libero pulvinar. Ut ac nunc mi. Donec ut ligula lorem. Phasellus lacinia pulvinar volutpat.</p>
-												<p><a href="#" class="btn btn-1">join our team</a></p>
+												<p><a class="btn btn-1" href="#">join our team</a></p>
 											</div>
 										</div>
 									</div><!-- Sidebar end -->
@@ -358,8 +335,8 @@
 						<div class="row site-footer-content">
 							<div class="col-lg-4 col-md-4 site-footer-logo">
 								<div>
-									<!-- Logo start --><a href="index.html" title="Ingram Accounting" class="site-logo">
-										<div class="logo-img"><img src="images/IA-logo.png" alt="Ingram Accounting logo"></div>
+									<!-- Logo start --><a class="site-logo" href="index.html" title="Ingram Accounting">
+										<div class="logo-img"><img src="images/IA-logo2.png" alt="Ingram Accounting logo"></div>
 										<div class="name-and-tagline">
 											<div class="name">Ingram</div>
 											<div class="tagline">Accounting & Consulting</div>
@@ -395,6 +372,10 @@
 			</div>
 		<script src="js/vendor.js"></script>
 		<script src="js/framework.js"></script>
+		<script>
+			< console class = "log"
+			this is the window window > < /console>
+		</script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpVQEdCmd9aY_-N6920-wilfScyBwS-Lw&amp;callback=initMap"></script>
 		<script src="js/template.js"></script>
 	</body>

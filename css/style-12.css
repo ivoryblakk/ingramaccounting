@@ -8052,7 +8052,7 @@ form .contacts-form-result.show {
   background-image: url("../images/2250x1500.png");
 }
 .image-bg-11 {
-  background-image: url("../images/2250x1500.png");
+  background-image: url("../images/IA-coins.jpg");
 }
 .image-bg-12 {
   background-image: url("../images/2250x1500.png");
@@ -8245,6 +8245,7 @@ form .contacts-form-result.show {
 }
 .rt-accordion .rt-accordion-item.active {
   background-color: #eae1e1;
+  color: black;
 }
 .combo {
   display: -webkit-flex;
@@ -10328,6 +10329,42 @@ fieldset[disabled] a.post.single .share-article a {
   .site-header-1 .site-menu > ul > li > a {
     padding-left: 15px;
     padding-right: 15px;
+  }
+}
+@media only screen and (max-width: 415px) {
+  #atomFrame {
+    display: none;
+  }
+  #atomFrame2 {
+    display: inline;
+  }
+  #atomClientFrame {
+    display: none;
+  }
+  #atomClientFrame2 {
+    display: inline;
+  }
+  #paypalBtn {
+    padding-top: 2em;
+    width: 250px;
+  }
+}
+@media only screen and (min-width: 415.5px) {
+  #atomFrame {
+    display: inline;
+  }
+  #atomFrame2 {
+    display: none;
+  }
+  #atomClientFrame {
+    display: inline;
+  }
+  #atomClientFrame2 {
+    display: none;
+  }
+  #paypalBtn {
+    width: 400px;
+    padding-top: 9em;
   }
 }
 .site-header-2 .top-bar .top-bar-content .contacts li:before {

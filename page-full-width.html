@@ -16,13 +16,13 @@
 			<div class="loader-section section-right"></div>
 		</div><!-- Preload end -->
 		<!-- To the top start -->
-		<div id="to-the-top" class="to-the-top"><a href="#"><i class="fa fa-long-arrow-up"></i></a></div><!-- To the top end -->
+		<div class="to-the-top" id="to-the-top"><a href="#"><i class="fa fa-long-arrow-up"></i></a></div><!-- To the top end -->
 		<!-- Mobile menu start -->
-		<aside id="offcanvas-menu" data-pushbar-id="left" class="pushbar from_left">
+		<aside class="pushbar from_left" id="offcanvas-menu" data-pushbar-id="left">
 			<h4 class="title"><span>Site Menu</span><span data-pushbar-close> </span></h4>
 		</aside><!-- Mobile menu end -->
-		<div id="page" class="page">
-			<div id="content-wrapper" class="content-wrapper">
+		<div class="page" id="page">
+			<div class="content-wrapper" id="content-wrapper">
 				<div class="content-wrapper-inner">
 					<!-- Header start -->
 					<header class="site-header site-header-1">
@@ -37,7 +37,7 @@
 							<div class="container">
 								<div class="row">
 									<div class="col-lg-12 main-bar-content">
-										<!-- Logo start --><a href="index.html" title="Ingram Accounting" class="site-logo">
+										<!-- Logo start --><a class="site-logo" href="index.html" title="Ingram Accounting">
 											<div class="logo-img"><img src="images/IA-logo.png" alt="Ingram Accounting logo"></div>
 											<div class="name-and-tagline">
 												<div class="name">Ingram</div>
@@ -49,7 +49,7 @@
 											<div class="header-contacts">
 												<div class="header-contacts-item hidden-md hidden-sm hidden-xs">
 													<div class="title"><span class="wicon-iconmonstr-mail-thin"></span> Ask the C.P.A.</div>
-													<div class="content"><a href="#">info@ingramAccounting.com</a></div>
+													<div class="content"><a href="mailto:info@ingramAccounting.com">info@ingramAccounting.com</a></div>
 												</div>
 												<div class="header-contacts-item hidden-sm hidden-xs">
 													<div class="title"><span class="wicon-iconmonstr-phone-thin"></span> Give us a call</div>
@@ -60,47 +60,24 @@
 													<div class="content">118 Salem Ct.</div>
 												</div>
 											</div><!-- Contacts end -->
-											<!-- Button start --><a href="#" class="btn btn-primary">Make An Appointment</a><!-- Button end -->
+											<!-- Button start --><a class="btn btn-primary" href="#">Make An Appointment</a><!-- Button end -->
 										</div>
 									</div>
 								</div>
 							</div>
 						</div><!-- Main bar end -->
 						<!-- Menu bar start -->
-						<div id="sticked-bar" class="menu-bar">
+						<div class="menu-bar" id="sticked-bar">
 							<div class="container">
 								<div class="row">
 									<div class="col-lg-12 menu-bar-content">
-										<!-- Memu start --><button data-pushbar-target="left" class="hidden-lg"><i class="fa fa-bars"></i></button>
-										<nav id="site-menu" class="site-menu hidden-sm hidden-xs hidden-md">
+										<!-- Memu start --><button class="hidden-lg" data-pushbar-target="left"><i class="fa fa-bars"></i></button>
+										<nav class="site-menu hidden-sm hidden-xs hidden-md" id="site-menu">
 											<ul>
-												<li class="active"><a href="#">home</a>
-													<ul>
-														<li><a href="index.html">Homepage #1</a></li>
-														<li><a href="index-2.html">Homepage #2</a></li>
-														<li><a href="index-3.html">Homepage #3</a></li>
-													</ul>
-												</li>
+												<li class="active"><a href="index.html">home</a></li>
 												<li><a href="#">About Us</a>
 													<ul>
-														<li><a href="page-404.html">404 error</a></li>
 														<li><a href="page-about.html">about the company</a></li>
-														<li><a href="page-coming-soon.html">coming soon</a></li>
-														<li><a href="page-contacts.html">contacts</a></li>
-														<li><a href="page-faq.html">faq</a></li>
-														<li><a href="#">Services</a>
-															<ul>
-																<li><a href="page-services.html">services</a></li>
-																<li><a href="page-services-single.html">single service</a></li>
-															</ul>
-														</li>
-														<li><a href="#">Payment</a>
-															<ul>
-																<li><a href="page-full-width.html">full width page</a></li>
-																<li><a href="page-sidebar-left.html">left sidebar page</a></li>
-																<li><a href="page-sidebar-right.html">right sidebar page</a></li>
-															</ul>
-														</li>
 													</ul>
 												</li>
 												<li><a href="page-services.html">Services</a>
@@ -109,13 +86,13 @@
 														<li><a href="page-services-single.html">single service</a></li>
 													</ul>
 												</li>
-												<li><a href="#"> Payment</a>
+												<li><a href="#"> Portal</a>
 													<ul>
-														<li><a href="portfolio-1.html">portfolio #1</a></li>
-														<li><a href="portfolio-2.html">portfolio #2</a></li>
-														<li><a href="portfolio-project.html">portfolio project</a></li>
+														<li><a href="portfolio-2.html">Client</a></li>
+														<li><a href="portfolio-1.html">Admin</a></li>
 													</ul>
 												</li>
+												<li><a href="payment.html"> Payment</a></li>
 												<li><a href="blog-1.html">Resources & Articles</a>
 													<ul>
 														<li><a href="blog-1.html">blog #1</a></li>
@@ -145,7 +122,7 @@
 										<li><a href="#">Site Templates</a></li>
 										<li><a href="#">Business</a></li>
 										<li><a href="#">Corporate</a></li>
-										<li class="active">Walton Consulting</li>
+										<li class="active">Ingram Accounting & Consulting</li>
 									</ol>
 								</div>
 							</div>
@@ -161,11 +138,11 @@
 									<p class="text-decor-2">Ideas and breakthroughs fueled by 100+ years of total experience.</p>
 									<p>Nullam placerat, sapien et eleifend condimentum, felis nisi pretium dolor, in pharetra tellus ipsum eget odio. Maecenas id cursus dui. Duis fermentum tortor id sapien tempor, quis placerat nunc gravida. Integer a diam sem. Vivamus vehicula consequat leo, ut cursus tellus iaculis et. Etiam volutpat bibendum dui at ullamcorper.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis tellus a nunc lobortis facilisis. Cras ante mauris, aliquam quis mattis in, efficitur vel nisi. Pellentesque vel eros lorem. Praesent ultrices mi sed nunc hendrerit aliquam. Proin tristique lectus eu neque rhoncus, eu euismod dolor malesuada. Etiam aliquet eros sollicitudin pharetra efficitur. Pellentesque ligula lectus, molestie sed iaculis et, sollicitudin ac turpis. Suspendisse vel arcu porta, varius ligula eget, posuere diam. Praesent turpis justo, facilisis vitae diam sit amet, placerat rhoncus neque. Sed rhoncus ac libero eu blandit. </p>
-									<figure class="preview fl-l"><a href="images/2250x1500.png" class="lightbox-images"><img src="images/2250x1500.png" alt=""></a>
+									<figure class="preview fl-l"><a class="lightbox-images" href="images/2250x1500.png"><img src="images/2250x1500.png" alt=""></a>
 										<figcaption><strong>Figure #1:</strong> A leading provider of consulting services.</figcaption>
 									</figure>
 									<p>Sed porta tincidunt turpis, sed auctor ex vehicula a. Proin cursus, odio ut laoreet fringilla, urna sem mattis turpis, ut sagittis lectus enim vel augue. Curabitur commodo hendrerit justo, sit amet commodo felis. Aenean ac tempus risus. Proin et ex efficitur, euismod justo id, semper arcu. Vestibulum ut magna ac nisl molestie tincidunt non et arcu. Morbi hendrerit augue euismod lacus efficitur, sit amet lobortis lectus rhoncus. Sed faucibus urna id faucibus tristique. Aenean rutrum quam eu orci varius, ac blandit nibh posuere. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec ornare ipsum eget tortor pharetra venenatis. Pellentesque vestibulum turpis sit amet neque tristique, vitae tempus nisl pharetra. Sed ut diam vitae ligula pretium pellentesque at ut augue. Nunc at libero quis sem ornare consequat. </p>
-									<figure class="preview fl-r"><a href="images/2250x1500.png" class="lightbox-images"><img src="images/2250x1500.png" alt=""></a>
+									<figure class="preview fl-r"><a class="lightbox-images" href="images/2250x1500.png"><img src="images/2250x1500.png" alt=""></a>
 										<figcaption><strong>Figure #2:</strong> We focus on passion and leadership.</figcaption>
 									</figure>
 									<p>Nulla nisl odio, ullamcorper eu placerat nec, bibendum id risus. Nulla vitae dui lectus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dignissim lorem quam, et condimentum purus tincidunt eget. Nam commodo purus non turpis vestibulum accumsan. In ac rhoncus lectus, vel imperdiet orci. Sed consectetur lectus convallis purus dictum, eu egestas velit fermentum. Cras varius vehicula quam a malesuada.</p>
@@ -248,7 +225,7 @@
 							</div>
 							<div class="col-xs-12 visible-md visible-sm"></div>
 							<div class="col-xs-12 col-lg-5 col-lg-pull-6">
-								<!-- Logo start --><a href="index.html" title="Walton" class="site-logo">
+								<!-- Logo start --><a class="site-logo" href="index.html" title="Walton">
 									<div class="logo-img"><img src="images/logo.png" alt="Walton"></div>
 									<div class="name-and-tagline">
 										<div class="name">Walton</div>
@@ -264,6 +241,10 @@
 			</div>
 		<script src="js/vendor.js"></script>
 		<script src="js/framework.js"></script>
+		<script>
+			< console class = "log"
+			this is the window window > < /console>
+		</script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpVQEdCmd9aY_-N6920-wilfScyBwS-Lw&amp;callback=initMap"></script>
 		<script src="js/template.js"></script>
 	</body>

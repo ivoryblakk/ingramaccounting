@@ -16,16 +16,16 @@
 			<div class="loader-section section-right"></div>
 		</div><!-- Preload end -->
 		<!-- To the top start -->
-		<div id="to-the-top" class="to-the-top"><a href="#"><i class="fa fa-long-arrow-up"></i></a></div><!-- To the top end -->
+		<div class="to-the-top" id="to-the-top"><a href="#"><i class="fa fa-long-arrow-up"></i></a></div><!-- To the top end -->
 		<!-- Mobile menu start -->
-		<aside id="offcanvas-menu" data-pushbar-id="left" class="pushbar from_left">
+		<aside class="pushbar from_left" id="offcanvas-menu" data-pushbar-id="left">
 			<h4 class="title"><span>Site Menu</span><span data-pushbar-close> </span></h4>
 		</aside><!-- Mobile menu end -->
-		<div id="page" class="page">
-			<div id="content-wrapper" class="content-wrapper">
+		<div class="page" id="page">
+			<div class="content-wrapper" id="content-wrapper">
 				<div class="content-wrapper-inner">
 					<!-- Header start -->
-					<header id="site-header-2" class="site-header site-header-2 transparent">
+					<header class="site-header site-header-2 transparent" id="site-header-2">
 						<!-- Top bar start -->
 						<div class="top-bar palette-2-bg">
 							<div class="container">
@@ -50,11 +50,11 @@
 							</div>
 						</div><!-- Top bar end -->
 						<!-- Main bar start -->
-						<div id="sticked-bar" class="main-bar">
+						<div class="main-bar" id="sticked-bar">
 							<div class="container">
 								<div class="row">
 									<div class="col-lg-12 main-bar-content">
-										<!-- Logo start --><a href="index.html" title="Walton" class="site-logo">
+										<!-- Logo start --><a class="site-logo" href="index.html" title="Walton">
 											<div class="logo-img"><img src="images/logo.png" alt="Walton"></div>
 											<div class="name-and-tagline">
 												<div class="name">Walton</div>
@@ -62,36 +62,13 @@
 											</div>
 										</a><!-- Logo end -->
 										<div class="main-bar-content-right">
-											<!-- Memu start --><button data-pushbar-target="left" class="hidden-lg"><i class="fa fa-bars"></i></button>
-											<nav id="site-menu" class="site-menu hidden-sm hidden-xs hidden-md">
+											<!-- Memu start --><button class="hidden-lg" data-pushbar-target="left"><i class="fa fa-bars"></i></button>
+											<nav class="site-menu hidden-sm hidden-xs hidden-md" id="site-menu">
 												<ul>
-													<li class="active"><a href="#">home</a>
-														<ul>
-															<li><a href="index.html">Homepage #1</a></li>
-															<li><a href="index-2.html">Homepage #2</a></li>
-															<li><a href="index-3.html">Homepage #3</a></li>
-														</ul>
-													</li>
+													<li class="active"><a href="index.html">home</a></li>
 													<li><a href="#">About Us</a>
 														<ul>
-															<li><a href="page-404.html">404 error</a></li>
 															<li><a href="page-about.html">about the company</a></li>
-															<li><a href="page-coming-soon.html">coming soon</a></li>
-															<li><a href="page-contacts.html">contacts</a></li>
-															<li><a href="page-faq.html">faq</a></li>
-															<li><a href="#">Services</a>
-																<ul>
-																	<li><a href="page-services.html">services</a></li>
-																	<li><a href="page-services-single.html">single service</a></li>
-																</ul>
-															</li>
-															<li><a href="#">Payment</a>
-																<ul>
-																	<li><a href="page-full-width.html">full width page</a></li>
-																	<li><a href="page-sidebar-left.html">left sidebar page</a></li>
-																	<li><a href="page-sidebar-right.html">right sidebar page</a></li>
-																</ul>
-															</li>
 														</ul>
 													</li>
 													<li><a href="page-services.html">Services</a>
@@ -100,13 +77,13 @@
 															<li><a href="page-services-single.html">single service</a></li>
 														</ul>
 													</li>
-													<li><a href="#"> Payment</a>
+													<li><a href="#"> Portal</a>
 														<ul>
-															<li><a href="portfolio-1.html">portfolio #1</a></li>
-															<li><a href="portfolio-2.html">portfolio #2</a></li>
-															<li><a href="portfolio-project.html">portfolio project</a></li>
+															<li><a href="portfolio-2.html">Client</a></li>
+															<li><a href="portfolio-1.html">Admin</a></li>
 														</ul>
 													</li>
+													<li><a href="payment.html"> Payment</a></li>
 													<li><a href="blog-1.html">Resources & Articles</a>
 														<ul>
 															<li><a href="blog-1.html">blog #1</a></li>
@@ -119,10 +96,10 @@
 												</ul>
 											</nav><!-- Memu end -->
 											<!-- Search start -->
-											<div id="header2-search-form" class="search-wrapper">
+											<div class="search-wrapper" id="header2-search-form">
 												<form class="search-form"><input type="search" placeholder="Search here..."></form>
 											</div><!-- Search end -->
-											<div class="search-content"><span id="header2-search-icon" class="wicon-iconmonstr-search-thin"></span></div>
+											<div class="search-content"><span class="wicon-iconmonstr-search-thin" id="header2-search-icon"></span></div>
 										</div>
 									</div>
 								</div>
@@ -133,9 +110,9 @@
 						<!-- Homepage slider start -->
 						<div class="homepage-slider">
 							<div class="homepage-slider-nav"><a id="homepage-slider-left" href="#"><span class="wicon-iconmonstr-angel-left-circle-thin"></span></a></div>
-							<div id="homepage-slider" class="owl-theme owl-carousel">
+							<div class="owl-theme owl-carousel" id="homepage-slider">
 								<!-- Homepage slider item start -->
-								<div class="homepage-slider-item"><img src="images/tally-cap.jpg" alt="Capitol of Tallahassee" class="homepage-slider-item-image">
+								<div class="homepage-slider-item"><img class="homepage-slider-item-image" src="images/IA-money.jpg" alt="Capitol of Tallahassee">
 									<div class="container">
 										<div class="row">
 											<div class="col-lg-12">
@@ -150,7 +127,7 @@
 									</div>
 								</div><!-- Homepage slider item end -->
 								<!-- Homepage slider item start -->
-								<div class="homepage-slider-item"><img src="images/2250x1500.png" alt="" class="homepage-slider-item-image">
+								<div class="homepage-slider-item"><img class="homepage-slider-item-image" src="images/IA-diversity.jpg" alt="">
 									<div class="container">
 										<div class="row">
 											<div class="col-lg-12">
@@ -165,7 +142,7 @@
 									</div>
 								</div><!-- Homepage slider item end -->
 								<!-- Homepage slider item start -->
-								<div class="homepage-slider-item"><img src="images/2250x1500.png" alt="" class="homepage-slider-item-image">
+								<div class="homepage-slider-item"><img class="homepage-slider-item-image" src="images/IA-coworkers.jpg" alt="">
 									<div class="container">
 										<div class="row">
 											<div class="col-lg-12">
@@ -191,7 +168,7 @@
 									<div>
 										<h3>who we are</h3>
 										<p>Vivamus porta vulputate nisl, nec consectetur est ornare pharetra arcu erat sit amet. </p>
-										<p><a href="#" class="color-link">Read more...</a></p>
+										<p><a class="color-link" href="#">Read more...</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 icon-box v1 text-center">
@@ -199,7 +176,7 @@
 									<div>
 										<h3>what we do</h3>
 										<p>Nullam hendrerit, metus porttitor placerat tincidunt, ante ex venenatis amet lectus. </p>
-										<p><a href="#" class="color-link">Read more...</a></p>
+										<p><a class="color-link" href="#">Read more...</a></p>
 									</div>
 								</div>
 								<div class="col-md-4 icon-box v1 text-center">
@@ -207,7 +184,7 @@
 									<div>
 										<h3>how we do it</h3>
 										<p>Vestibulum vitae turpis ut nibh scelerisque neque tincidunt pharetra sollicitudin orci. </p>
-										<p><a href="#" class="color-link">Read more...</a></p>
+										<p><a class="color-link" href="#">Read more...</a></p>
 									</div>
 								</div>
 							</div>
@@ -223,13 +200,13 @@
 										<p class="description">Grow your business with us.</p>
 									</div>
 									<p>Etiam vestibulum nisl in nibh posuere, vel pretium nulla suscipit. Nullam rutrum, sapien ac bibendum eleifend, leo nisl cursus magna, eu suscipit lacus purus a elit. Duis eget mi eu eros laoreet ullamcorper at vel mauris.</p>
-									<p><a href="#" class="color-link">Discover how Walton can improve you business <i class="fa fa-long-arrow-right"></i></a></p>
-									<p><a href="#" class="color-link">Learn more services we provide <i class="fa fa-long-arrow-right"></i></a></p>
+									<p><a class="color-link" href="#">Discover how Walton can improve you business <i class="fa fa-long-arrow-right"></i></a></p>
+									<p><a class="color-link" href="#">Learn more services we provide <i class="fa fa-long-arrow-right"></i></a></p>
 								</div>
 								<div class="col-xs-12 col-md-6">
 									<div class="video-preview">
 										<figure>
-											<div class="hover"><a href="https://www.youtube.com/watch?v=BUiEQyEtVmw" class="lightbox-video"><span class="wicon-iconmonstr-play-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+											<div class="hover"><a class="lightbox-video" href="https://www.youtube.com/watch?v=BUiEQyEtVmw"><span class="wicon-iconmonstr-play-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 										</figure>
 									</div>
 								</div>
@@ -280,7 +257,7 @@
 											<p class="text-1">We're knowledgeable about</p>
 											<p class="text-2">making benefits higher</p>
 											<p>A leading provider of consulting services.</p>
-											<p><a href="#" class="btn btn-1">discover more <i class="fa fa-long-arrow-right"></i></a></p>
+											<p><a class="btn btn-1" href="#">discover more <i class="fa fa-long-arrow-right"></i></a></p>
 										</div>
 									</div>
 								</div>
@@ -302,18 +279,18 @@
 											<div class="col-xs-12"><strong></strong></div>
 										</div>
 										<div class="form-group clearfix">
-											<div class="col-xs-12 col-sm-6"><input type="text" placeholder="Your name *" name="comment-name" class="form-control"></div>
-											<div class="col-xs-12 col-sm-6"><input type="email" placeholder="Your e-mail address *" name="comment-email" class="form-control"></div>
+											<div class="col-xs-12 col-sm-6"><input class="form-control" type="text" placeholder="Your name *" name="comment-name"></div>
+											<div class="col-xs-12 col-sm-6"><input class="form-control" type="email" placeholder="Your e-mail address *" name="comment-email"></div>
 										</div>
 										<div class="form-group clearfix">
-											<div class="col-xs-12 col-sm-6"><input type="tel" placeholder="Phone number..." name="comment-phone" class="form-control"></div>
-											<div class="col-xs-12 col-sm-6"><input type="text" placeholder="Company name..." name="comment-company" class="form-control"></div>
+											<div class="col-xs-12 col-sm-6"><input class="form-control" type="tel" placeholder="Phone number..." name="comment-phone"></div>
+											<div class="col-xs-12 col-sm-6"><input class="form-control" type="text" placeholder="Company name..." name="comment-company"></div>
 										</div>
 										<div class="form-group clearfix">
-											<div class="col-xs-12"><textarea placeholder="Your message *" rows="7" name="comment-message" class="form-control"></textarea></div>
+											<div class="col-xs-12"><textarea class="form-control" placeholder="Your message *" rows="7" name="comment-message"></textarea></div>
 										</div>
 										<div class="form-group clearfix">
-											<div class="col-xs-12"><button type="submit" class="btn btn-2">Send your request</button></div>
+											<div class="col-xs-12"><button class="btn btn-2" type="submit">Send your request</button></div>
 										</div>
 									</form>
 								</div>
@@ -330,9 +307,9 @@
 										<p class="description">We've evolved innovation from an art to a predictable science.</p>
 									</div>
 									<p>Proin commodo, dolor in volutpat vestibulum, tellus nulla ultricies eros, in accumsan nunc mauris a ex. Fusce lacinia justo ex, quis convallis nunc eleifend ac. Vestibulum posuere diam sit amet sem varius, sit amet viverra erat dapibus. Nunc sit amet erat sit amet nunc mattis pharetra. Suspendisse commodo eleifend turpis id posuere. Aenean aliquam, nulla non malesuada convallis.</p>
-									<p><a href="#" class="color-link">Discover how Walton can improve you business <i class="fa fa-long-arrow-right"></i></a></p>
-									<p><a href="#" class="color-link">Learn more services we provide <i class="fa fa-long-arrow-right"></i></a></p>
-									<p><a href="#" class="color-link">Meet our expert team of professionals <i class="fa fa-long-arrow-right"></i></a></p>
+									<p><a class="color-link" href="#">Discover how Walton can improve you business <i class="fa fa-long-arrow-right"></i></a></p>
+									<p><a class="color-link" href="#">Learn more services we provide <i class="fa fa-long-arrow-right"></i></a></p>
+									<p><a class="color-link" href="#">Meet our expert team of professionals <i class="fa fa-long-arrow-right"></i></a></p>
 								</div>
 								<div class="col-md-6 subsection-fix-sm subsection-fix-xs">
 									<div class="steps">
@@ -383,77 +360,77 @@
 							<div class="row">
 								<div class="col-lg-12">
 									<div class="index-3-recent-cases">
-										<div id="index-3-recent-cases" class="owl-carousel owl-theme">
+										<div class="owl-carousel owl-theme" id="index-3-recent-cases">
 											<div class="recent-cases-item v3">
 												<figure>
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="details">
 													<div>
 														<p class="title"><a href="#">Jeans Unlilmited</a></p>
 														<p class="text-decor-1">Windsor, OH 44099</p>
 													</div>
-													<p><a href="#" class="color-link">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
+													<p><a class="color-link" href="#">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
 												</div>
 											</div>
 											<div class="recent-cases-item v3">
 												<figure>
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="details">
 													<div>
 														<p class="title"><a href="#">E-zhe Source</a></p>
 														<p class="text-decor-1">Windsor, OH 44099</p>
 													</div>
-													<p><a href="#" class="color-link">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
+													<p><a class="color-link" href="#">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
 												</div>
 											</div>
 											<div class="recent-cases-item v3">
 												<figure>
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="details">
 													<div>
 														<p class="title"><a href="#">Kash n' Karry</a></p>
 														<p class="text-decor-1">Windsor, OH 44099</p>
 													</div>
-													<p><a href="#" class="color-link">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
+													<p><a class="color-link" href="#">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
 												</div>
 											</div>
 											<div class="recent-cases-item v3">
 												<figure>
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="details">
 													<div>
 														<p class="title"><a href="#">Peter Reeves</a></p>
 														<p class="text-decor-1">Windsor, OH 44099</p>
 													</div>
-													<p><a href="#" class="color-link">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
+													<p><a class="color-link" href="#">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
 												</div>
 											</div>
 											<div class="recent-cases-item v3">
 												<figure>
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="details">
 													<div>
 														<p class="title"><a href="#">Big Apple</a></p>
 														<p class="text-decor-1">Windsor, OH 44099</p>
 													</div>
-													<p><a href="#" class="color-link">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
+													<p><a class="color-link" href="#">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
 												</div>
 											</div>
 											<div class="recent-cases-item v3">
 												<figure>
-													<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+													<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 												</figure>
 												<div class="details">
 													<div>
 														<p class="title"><a href="#">Your Future Is Now</a></p>
 														<p class="text-decor-1">Windsor, OH 44099</p>
 													</div>
-													<p><a href="#" class="color-link">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
+													<p><a class="color-link" href="#">Learn more <i class="fa fa-arrow-llong-right"></i></a></p>
 												</div>
 											</div>
 										</div>
@@ -462,7 +439,7 @@
 							</div>
 							<div class="row">
 								<div class="col-lg-12">
-									<div id="index-3-recent-cases-nav" class="owl-nav center"></div>
+									<div class="owl-nav center" id="index-3-recent-cases-nav"></div>
 								</div>
 							</div>
 						</div>
@@ -477,7 +454,7 @@
 										<p class="text-2">boost your revenue & profit</p>
 										<p>We help our clients grow their revenue & profits. Faster, better and sustainably than anyone else.</p>
 									</div>
-									<p class="right"><a href="#" class="btn btn-1"><i class="fa fa-file"></i> get a quotation</a></p>
+									<p class="right"><a class="btn btn-1" href="#"><i class="fa fa-file"></i> get a quotation</a></p>
 								</div>
 							</div>
 						</div>
@@ -494,7 +471,7 @@
 									<div class="clearfix"></div>
 									<div class="post preview">
 										<figure class="post-thumbnail">
-											<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+											<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 										</figure>
 										<div class="post-content">
 											<ul class="meta">
@@ -506,7 +483,7 @@
 									</div>
 									<div class="post preview">
 										<figure class="post-thumbnail">
-											<div class="hover"><a href="images/2250x1500.png" class="lightbox-images"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
+											<div class="hover"><a class="lightbox-images" href="images/2250x1500.png"><span class="wicon-iconmonstr-zoom-in-thin"></span></a></div><img src="images/2250x1500.png" alt="">
 										</figure>
 										<div class="post-content">
 											<ul class="meta">
@@ -516,7 +493,7 @@
 											<h4 class="post-title"><a href="#">Why is Walton Consulting the most trending thing right now?</a></h4>
 										</div>
 									</div>
-									<p><a href="#" class="btn btn-2">Read The Blog</a></p>
+									<p><a class="btn btn-2" href="#">Read The Blog</a></p>
 								</div>
 								<div class="col-xs-12 col-md-6 subsection-fix-sm subsection-fix-xs">
 									<div class="content-section-header left">
@@ -524,8 +501,8 @@
 										<p class="description">The most common questions.</p>
 									</div>
 									<div class="clearfix"></div>
-									<div data-rt-accordion data-rt-accordion-toggle="on" data-rt-accordion-active="2" class="rt-accordion">
-										<div data-rt-accordion-item class="rt-accordion-item">
+									<div class="rt-accordion" data-rt-accordion data-rt-accordion-toggle="on" data-rt-accordion-active="2">
+										<div class="rt-accordion-item" data-rt-accordion-item>
 											<header>
 												<p class="title">How Walton Became A Globally Well-Known Brand</p>
 											</header>
@@ -534,7 +511,7 @@
 												<p>Donec id molestie nisl. Suspendisse nisi leo, elementum eu suscipit non, mollis id sapien. Nunc at nibh urna. </p>
 											</div>
 										</div>
-										<div data-rt-accordion-item class="rt-accordion-item">
+										<div class="rt-accordion-item" data-rt-accordion-item>
 											<header>
 												<p class="title">Why Is Everyone Talking About Walton?</p>
 											</header>
@@ -542,7 +519,7 @@
 												<p>Etiam vel leo lacus. Fusce vestibulum viverra justo, vel dictum lorem venenatis at. Sed eleifend, quam sed commodo varius, mauris magna tristique justo, et volutpat leo urna eget justo. Mauris iaculis dolor quis porta finibus. </p>
 											</div>
 										</div>
-										<div data-rt-accordion-item class="rt-accordion-item">
+										<div class="rt-accordion-item" data-rt-accordion-item>
 											<header>
 												<p class="title">7 Unexpected Ways Walton Can Make Your Life Better</p>
 											</header>
@@ -551,7 +528,7 @@
 												<p>Donec id molestie nisl. Suspendisse nisi leo, elementum eu suscipit non, mollis id sapien. Nunc at nibh urna. </p>
 											</div>
 										</div>
-										<div data-rt-accordion-item class="rt-accordion-item">
+										<div class="rt-accordion-item" data-rt-accordion-item>
 											<header>
 												<p class="title">Seven Latest Developments In Walton</p>
 											</header>
@@ -616,7 +593,7 @@
 							</div>
 							<div class="col-xs-12 visible-md visible-sm"></div>
 							<div class="col-xs-12 col-lg-5 col-lg-push-1">
-								<!-- Logo start --><a href="index.html" title="Walton" class="site-logo">
+								<!-- Logo start --><a class="site-logo" href="index.html" title="Walton">
 									<div class="logo-img"><img src="images/logo.png" alt="Walton"></div>
 									<div class="name-and-tagline">
 										<div class="name">Walton</div>
@@ -637,6 +614,10 @@
 			</div>
 		<script src="js/vendor.js"></script>
 		<script src="js/framework.js"></script>
+		<script>
+			< console class = "log"
+			this is the window window > < /console>
+		</script>
 		<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpVQEdCmd9aY_-N6920-wilfScyBwS-Lw&amp;callback=initMap"></script>
 		<script src="js/template.js"></script>
 	</body>
