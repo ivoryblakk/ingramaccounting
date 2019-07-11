@@ -10333,16 +10333,16 @@ fieldset[disabled] a.post.single .share-article a {
 }
 @media only screen and (max-width: 415px) {
   #atomFrame {
-    display: none;
+    display: none !important;
   }
   #atomFrame2 {
-    display: inline;
+    display: inline !important;
   }
   #atomClientFrame {
-    display: none;
+    display: none !important;
   }
   #atomClientFrame2 {
-    display: inline;
+    display: inline !important;
   }
   #paypalBtn {
     padding-top: 2em;
@@ -10351,16 +10351,16 @@ fieldset[disabled] a.post.single .share-article a {
 }
 @media only screen and (min-width: 415.5px) {
   #atomFrame {
-    display: inline;
+    display: inline !important;
   }
   #atomFrame2 {
-    display: none;
+    display: none !important ;
   }
   #atomClientFrame {
-    display: inline;
+    display: inline !important;
   }
   #atomClientFrame2 {
-    display: none;
+    display: none	!important;
   }
   #paypalBtn {
     width: 400px;
