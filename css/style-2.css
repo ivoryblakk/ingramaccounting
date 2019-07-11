@@ -10349,7 +10349,7 @@ fieldset[disabled] a.post.single .share-article a {
     width: 250px;
   }
 }
-@media only screen and (min-width: 415.5px) {
+@media only screen and (min-width: 416px) {
   #atomFrame {
     display: inline !important;
   }
